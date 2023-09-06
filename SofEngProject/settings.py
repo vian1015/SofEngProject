@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-3v$&lqun@k&k@r3xy3z!^#mx1o#gwcb+ts%eet-j^&jkj%h_qg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'SofEngProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env('DB_NAME'),
-        'USER': env('DB_USER'),
-        'PASSWORD': env('DB_USER_PASSWORD'),
-        'HOST': env('DB_HOST'),
-        'PORT': env('DB_PORT')
+        'NAME': 'vcfqkhdw',
+        'USER': 'vcfqkhdw'
+        'PASSWORD': 'c9D3a6-dd-qjmWGCvNgW86zqpCGav-ka'
+        'HOST': 'topsy.db.elephantsql.com'
+        'PORT': '5432'
     }
 }
 
