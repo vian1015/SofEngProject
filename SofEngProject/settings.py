@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'vcfqkhdw',
-        'USER': 'vcfqkhdw'
-        'PASSWORD': 'c9D3a6-dd-qjmWGCvNgW86zqpCGav-ka'
-        'HOST': 'topsy.db.elephantsql.com'
+        'USER': 'vcfqkhdw',
+        'PASSWORD': 'c9D3a6-dd-qjmWGCvNgW86zqpCGav-ka',
+        'HOST': 'topsy.db.elephantsql.com',
         'PORT': '5432'
     }
 }
